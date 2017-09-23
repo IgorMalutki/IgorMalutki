@@ -1,5 +1,5 @@
-﻿body {
-	margin: 0;	
+body {
+	margin: 0;
 }
 
 header  div {
@@ -20,11 +20,11 @@ header div ul {
 header div ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #FFF;
+	color: red;
 }
 
 header div ul li a:hover {
-	color: #95a5a6;	
+	color: #95a5a6;
 }
 
 .jumbotron {
@@ -89,8 +89,6 @@ footer div {
 }
 
 .company {
-	flex-grow: 2;	
+	flex-grow: 2;
 }
-
-
 
