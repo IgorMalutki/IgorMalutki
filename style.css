@@ -1,0 +1,96 @@
+﻿body {
+	margin: 0;	
+}
+
+header  div {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	background-color: #D0BCFE;
+}
+
+header div ul {
+	display: flex;
+	list-style: none;
+	width: 30%;
+	padding: 0;
+	justify-content: space-around;
+}
+
+header div ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+header div ul li a:hover {
+	color: #95a5a6;	
+}
+
+.jumbotron {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #A5DBEB;
+}
+
+
+.img-1 {background-image: url('https://kodilla.com/static/lessons/1.jpg');}
+.img-2 {background-image: url('https://kodilla.com/static/lessons/2.jpg');}
+.img-3 {background-image: url('https://kodilla.com/static/lessons/3.jpg');}
+.img-4 {background-image: url('https://kodilla.com/static/lessons/4.jpg');}
+.img-5 {background-image: url('https://kodilla.com/static/lessons/5.jpg');}
+.img-6 {background-image: url('https://kodilla.com/static/lessons/6.jpg');}
+
+
+.element {
+	height: 400px;
+	width: 400px;
+	margin: 5px;
+	border-radius: 5px;
+	background-position: center;
+	background-size: cover;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #CAFFD8;
+}
+
+.karty {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	background-color: #F5F7C4;
+}
+
+.karty div {
+	display: flex;
+	min-width: 200px;
+	font-size: 20px;
+	justify-content:center;
+	align-items: center;
+	background-color: #FFC8E3;
+	padding: 10px;
+}
+
+footer {
+	display: flex;
+	height: 50px;
+	align-items: center;
+}
+
+footer div {
+	display: flex;
+	justify-content:center;
+}
+
+.company {
+	flex-grow: 2;	
+}
+
+
+
